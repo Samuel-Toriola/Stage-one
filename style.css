@@ -93,7 +93,8 @@ main {
 
 .github-link:link,
 .github-link:visited {
-  padding: 0 0.5rem;
+  padding: 0 1rem;
+  border-radius: 3px;
 
   font-size: 1.8rem;
   color: #f5f5f5;
@@ -104,7 +105,7 @@ main {
 }
 .github-link:hover {
   background-color: #f5f5f5;
-  padding: 0 0.5rem;
+
   color: #101010;
   border-bottom: 2px solid transparent;
 }
