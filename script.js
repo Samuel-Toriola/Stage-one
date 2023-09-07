@@ -8,9 +8,6 @@ const date = new Date();
 const utcHours = date.getUTCHours();
 const utcMinute = date.getUTCMinutes();
 const utcSeconds = date.getUTCSeconds();
-console.log(date.getUTCHours());
-console.log(date.getUTCMinutes());
-console.log(date.getUTCSeconds());
 
 let currentDay = "";
 
