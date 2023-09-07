@@ -1,0 +1,19 @@
+{
+  "name": "hnm-stage-one",
+  "version": "1.0.0",
+  "description": "First stage",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Samuel Toriola",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

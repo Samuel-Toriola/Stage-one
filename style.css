@@ -1,0 +1,110 @@
+/* General Styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-family: "Inter", sans-serif;
+  background-color: #bdb9b9;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* Main Container style */
+main {
+  position: relative;
+  height: 100vh;
+}
+.container {
+  width: 50rem;
+  color: #f5f5f5;
+  position: absolute;
+  border-radius: 10px;
+  padding: 1.8rem;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  background-color: #101010;
+}
+
+/* ////////////////////////////////////////////////// */
+/* Text styles */
+.heading-div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading-primary {
+  display: inline-block;
+  padding: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid currentColor;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.text-name {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  font-family: inherit;
+
+  margin-bottom: 1.2rem;
+}
+
+.text-container {
+  font-size: 1.8rem;
+  /* background-color: green; */
+}
+
+/* Image styles */
+.img-container {
+  width: 10rem;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+}
+
+/* Link styles */
+
+.link-div {
+  text-align: center;
+  padding: 1.2rem 0;
+}
+
+.github-link:link,
+.github-link:visited {
+  padding: 0 0.5rem;
+
+  font-size: 1.8rem;
+  color: #f5f5f5;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  margin-bottom: 0.7rem;
+  transition: all 0.3s;
+}
+.github-link:hover {
+  background-color: #f5f5f5;
+  padding: 0 0.5rem;
+  color: #101010;
+  border-bottom: 2px solid transparent;
+}
